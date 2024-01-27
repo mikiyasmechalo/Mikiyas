@@ -23,14 +23,12 @@ int main(){
     for (int i = 0; i < capacity; i++) {
         bool foundSeats = false;
 
-        if (!transferred) {
-            cout << "\n|Welcome!!          |"<<
-                    "\n|Please type        |"<<
-                    "\n|1 for \"First Class\"|"<<
-                    "\n|2 for \"Economy\"    |\n"<<
-                    "\n|Your choice: ";
-            cin >> choice;
-        }
+        cout << "\n|Welcome!!          |"<<
+                "\n|Please type        |"<<
+                "\n|1 for \"First Class\"|"<<
+                "\n|2 for \"Economy\"    |\n"<<
+                "\n|Your choice: ";
+        cin >> choice;
 
         while (true) {
             if (choice == '1' || transferred) {
