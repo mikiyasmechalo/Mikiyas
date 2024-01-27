@@ -5,8 +5,8 @@
 using namespace std;
 
 int main(){
-    const int capacity = 4;
-    const int firstClassCapacity = 2;
+    const int capacity = 100;
+    const int firstClassCapacity = 30;
     const int economyCapacity = capacity - firstClassCapacity;
 
     string name[capacity];
